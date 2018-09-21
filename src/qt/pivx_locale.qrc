@@ -1,0 +1,36 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/CCIP_bg.qm</file>
+        <file alias="ca">locale/CCIP_ca.qm</file>
+        <file alias="cs">locale/CCIP_cs.qm</file>
+        <file alias="da">locale/CCIP_da.qm</file>
+        <file alias="de">locale/CCIP_de.qm</file>
+        <file alias="en">locale/CCIP_en.qm</file>
+        <file alias="en_US">locale/CCIP_en_US.qm</file>
+        <file alias="eo">locale/CCIP_eo.qm</file>
+        <file alias="es">locale/CCIP_es.qm</file>
+        <file alias="es_ES">locale/CCIP_es_ES.qm</file>
+        <file alias="fi">locale/CCIP_fi.qm</file>
+        <file alias="fr_FR">locale/CCIP_fr_FR.qm</file>
+        <file alias="hi_IN">locale/CCIP_hi_IN.qm</file>
+        <file alias="hr">locale/CCIP_hr.qm</file>
+        <file alias="hr_HR">locale/CCIP_hr_HR.qm</file>
+        <file alias="it">locale/CCIP_it.qm</file>
+        <file alias="ja">locale/CCIP_ja.qm</file>
+        <file alias="ko_KR">locale/CCIP_ko_KR.qm</file>
+        <file alias="lt_LT">locale/CCIP_lt_LT.qm</file>
+        <file alias="nl">locale/CCIP_nl.qm</file>
+        <file alias="pl">locale/CCIP_pl.qm</file>
+        <file alias="pt">locale/CCIP_pt.qm</file>
+        <file alias="pt_BR">locale/CCIP_pt_BR.qm</file>
+        <file alias="ro_RO">locale/CCIP_ro_RO.qm</file>
+        <file alias="ru">locale/CCIP_ru.qm</file>
+        <file alias="sk">locale/CCIP_sk.qm</file>
+        <file alias="sv">locale/CCIP_sv.qm</file>
+        <file alias="tr">locale/CCIP_tr.qm</file>
+        <file alias="uk">locale/CCIP_uk.qm</file>
+        <file alias="vi">locale/CCIP_vi.qm</file>
+        <file alias="zh_CN">locale/CCIP_zh_CN.qm</file>
+        <file alias="zh_TW">locale/CCIP_zh_TW.qm</file>
+    </qresource>
+</RCC>

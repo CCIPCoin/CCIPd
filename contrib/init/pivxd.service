@@ -1,0 +1,26 @@
+[Unit]
+Description=CCIP's distributed currency daemon
+After=network.target
+
+[Service]
+User=CCIP
+Group=CCIP
+
+Type=forking
+PIDFile=/var/lib/CCIPd/CCIPd.pid
+
+ExecStart=/usr/bin/CCIPd -daemon -pid=/var/lib/CCIPd/CCIPd.pid \
+          -conf=/etc/CCIP/CCIP.conf -datadir=/var/lib/CCIPd
+
+ExecStop=-/usr/bin/CCIP-cli -conf=/etc/CCIP/CCIP.conf \
+         -datadir=/var/lib/CCIPd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,26 @@
+# /etc/conf.d/CCIPd: config file for /etc/init.d/CCIPd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/CCIP/CCIP.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/CCIPd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/CCIPd.pid"
+
+# Where to write CCIPd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/CCIPd"
+
+# User and group to own CCIPd process
+#BITCOIND_USER="CCIP"
+#BITCOIND_GROUP="CCIP"
+
+# Path to CCIPd executable
+#BITCOIND_BIN="/usr/bin/CCIPd"
+
+# Nice value to run CCIPd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
